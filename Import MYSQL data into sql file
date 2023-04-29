@@ -1,3 +1,5 @@
+NOTE : you will need to create a database that will be used to import data into an SQL file.
+
 
 Select Specific Database:
 
@@ -6,3 +8,4 @@ mysql -u root -p { DATABASE NAME } < { DOWNLOAD PATH YOUR SQL FILE }
 
 Example :
 mysql -u root -p tutorial < /home/Downloads/tutorial.sql
+
