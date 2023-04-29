@@ -1,0 +1,17 @@
+
+All Databasse:
+
+Syntax :
+mysqldump -u root -p --all-databases > { DOWNLOAD PATH YOUR SQL FILE }
+
+Example :
+mysqldump -u root -p --all-databases > /home/Downloads/tutorial.sql
+
+
+Select Specific Database
+
+Syntax :
+mysqldump -u root -p { EXPORT FIRST DATABASE NAME } { EXPORT SECOND DATABASE NAME }... > { DOWNLOAD PATH YOUR SQL FILE }
+
+Example :
+mysqldump -u root -p tutorial tutorialbackup2 > /home/Downloads/tutorial.sql
