@@ -1,0 +1,8 @@
+
+Select Specific Database:
+
+Syntax :
+mysql -u root -p { DATABASE NAME } < { DOWNLOAD PATH YOUR SQL FILE }
+
+Example :
+mysql -u root -p tutorial < /home/Downloads/tutorial.sql
