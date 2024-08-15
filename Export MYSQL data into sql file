@@ -16,5 +16,3 @@ mysqldump -u root -p { EXPORT FIRST DATABASE NAME } { EXPORT SECOND DATABASE NAM
 Example :
 mysqldump -u root -p tutorial tutorialbackup2 > /home/Downloads/tutorial.sql
 
-
-test for ssh
